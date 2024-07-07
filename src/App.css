@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgba(22, 24, 24, 0.966);
+}
+header {
+  height: 4.5rem;
+}
+.bar {
+  background: linear-gradient(to right, rgb(136, 85, 145), rgb(255, 199, 222));
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+
+div h1 {
+  margin-left: 8rem;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 10rem;
+}
+.nav-bar {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-bar li {
+  padding: 0 0.4rem;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px black;
+}
+
+.nav-bar li a:hover {
+  color: rgb(202, 149, 149);
+  font-size: 1rem;
+  transition: all 0.4s ease-out;
+}
